@@ -3,6 +3,10 @@ body{
 	margin: 0;
 	padding: 0;
 }
+p{
+	font:20px "宋体";
+	text-indent: 2em;
+}
 span,h3{
 	color: #cccccc;
 }
@@ -91,18 +95,16 @@ table tr td{
 .tr_bottom{
 	background: #cccccc;
 }
-input{
-	margin: 10px 0;
-}
 textarea{
 	width: 500px;
 	height:50px;
 }
 
 .form_text{
-	font: 20px  "微软雅黑";
+	font: 20px  "宋体";
 	position: absolute;
 	left: 38%;
+	
 }
 
 .form_box{
@@ -119,11 +121,12 @@ form p{
     color:white; 
     font:20px "微软雅黑";
 	width:96%;
-	margin:100px 2%; 
+	margin:100px 2% 0 2%; 
     border-radius:10px;
 }
 .form_content{
 	margin-top: 10px;
+	margin-bottom: 0px;
 }
 footer{
 	height: 50px;
